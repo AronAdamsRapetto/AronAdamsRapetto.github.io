@@ -3,6 +3,14 @@
     font-style: italic;    
 }
 
+.texto-apresentacao{
+    line-height: 20px;
+    font-family: monospace;
+    background-color: #2BA84A;
+    padding: 20px;
+}
+
 body{
     background-color: #2D3A3A;
+    line-height: 20px;
 }
