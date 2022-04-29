@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #2d3a3a;
+    line-height: 20px;
+    font-family: "Montserrat", sans-serif;
+    color: #fcfffc; 
+  }
+  
+  header {
+    background-color: #040f0f;
+    color: #fcfffc;  
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    font-style: italic;
+    margin-left: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav ul li {
+    list-style: none;
+    margin: 0 5px;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    padding: 13px;
+    text-decoration: none;
+    color: #fcfffc;
+    background-color: #040f0f;
+    box-shadow: 2px 2px 2px rgba(4, 15, 15, 0.5);
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  nav ul li:hover {
+    transition: all 0.5s ease;
+    color: #2ba84a;
+    transform: translateY(10px);
+  }
+  
+  .habilidades {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 90%;
+      margin: auto;      
+  }
+
+  .habilidades h3 {
+      margin: 30px 0 15px;
+      background-color: #248232;
+      padding: 5px;
+  }
+
+  .habilidades h4 {
+      margin: 10px;
+      color: #2ba84a;      
+  }
+
+  .habilidades i {
+      font-size: 40px;
+  }
+
+  .habilidades hr {
+      width: 40%;
+      margin: 5px 0 30px;
+  }
+
+  .habilidades p {
+      margin-bottom: 30px;
+  }
+  
+  footer {
+    display: flex;  
+    background-color: #040f0f;
+    color: #fcfffc;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0;
+  }
+  
+  .container-links {
+    display: flex;
+    margin: 0 ;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: #fcfffc;
+    font-size: 35px;
+    margin: 0 5px;
+  } 
+  
