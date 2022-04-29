@@ -1,113 +1,110 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <title>Portifólio | Aron Adams Rapetto</title>
-  </head>
 
-  <body>
-    <!-- Cabeçalho da página -->
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/ad914de6ad.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <script src="./script.js" defer></script>
+  <title>Portifólio | Aron Adams Rapetto</title>
+</head>
 
-    <h3>Seções</h3>
+<body>
+  <!-- Cabeçalho da página -->  
+    <header>
+      <h1 class="nome">Aron Adams Rapetto</h1>
+      <nav>
+        <ul>
+          <li id="sobre-mim">SOBRE MIM</li>
+          <li>HABILIDADES & COMPETÊNCIAS</li>
+          <li>LINKS ÚTEIS</li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Conteúdo principal -->
+    <main>
+      <!-- Primeira seção - sobre mim -->
+      <section id="container-sobre-mim" class="sobre-mim">
+  
+        <img class="foto-de-perfil" src="./img/WhatsApp Image 2022-02-16 at 12.06.50.jpeg"
+          alt="Foto de Aron Adams Rapetto" width="150px" />
+  
+        <div id="apresentacao" class="texto-apresentacao">
+          <p>
+            Oii, muito prazer e bem vindo(a) ao meu
+            <strong>portifólio profissional!!</strong> </p>
+            <p>
+            Meu nome é Aron, tenho 24 anos, sou <em>Brasileiro</em>, nascido e residente de
+            <strong>Porto Alegre/RS</strong>, moro com minha "namorida" e minhas duas filhas do
+            coração. Atualmente sou uma pessoa estudante da Trybe me preparando para
+            uma futura carreira como Dev na área de Desenvolvimento Web. Gosto muito
+            de música e tenho como principal hobby tocar violão, meu prato favorito é
+            arroz, feijão, bife a milanesa, purê de batata e beterraba.. hmmmm...
+            <br />
+            Meu sonho é viajar o mundo e conhecer as mais diversas culturas e
+            costumes, vislumbrar paisagens inimagináveis e enriquecer minha vida com
+            experiências únicas.
+          </p>
+        </div>
+      </section>
+  
+      <!-- Segunda seção - Habilidades e competências -->
+  
+      <!-- <h4 id="habilidades">Habilidades & Competências</h4>
+  
+      <ul>
+        <li>
+          <em>Unix & Shell</em> - Conhecimento básico na manipulação de arquivos e
+          processos através do terminal em sistemas baseados em Unix.
+        </li>
+        <li>
+          <em>Organização</em> - Habilidade de organizar a mim mesmo e o ambiente
+          a minha volta.
+        </li>
+        <li><em>HTML & CSS</em> - (Ainda em desenvolvimento)</li>
+        <li>
+          <em>Responsabilidade</em> - Capacidade de cumprir com compromissos e
+          obrigações assumidos além de ponderar decisões e seus efeitos em mim ou
+          terceiros.
+        </li>
+        <li>
+          <em>Rápido aprendizado</em> - Capacidade de aprender de forma ágil e
+          prática.
+        </li>
+        <li>
+          <em>Git e GitHub</em> - Conhecimento e prática no versionamento de
+          arquivos.
+        </li>
+        <li>
+          <em>Empatia</em> - Capacidade de discernir os sentimentos, situações e
+          dificuldades de outras pessoas.
+        </li>
+      </ul>
+      <h4>Habilidade da qual mais me orgulho</h4>
+      <ul>
+        <li>
+          <em><strong>Inteligência emocional</strong></em> - Capacidade de manter
+          a calma em situações difíceis, de urgência ou crise.
+        </li>
+        <br />
+      </ul> -->
+    </main>
+    <!-- Roda-pé -->
+    <footer>
+      <p>Todos os direitos reservados | Desenvolvido por Aron Adams Rapetto</p>
+      <div class="container-links">
+        <a href="https://linkedin.com/in/aron-adams-rapetto" target="_Blank"><i class="fa-brands fa-linkedin"></i></a>
+        <br />
+        <a href="https://github.com/AronAdamsRapetto" target="_Blank"><i class="fa-brands fa-github"></i></a>      
+      </div>      
+    </footer>  
+</body>
 
-    <ul>
-      <li><a href="#sobre_mim">Sobre mim</a></li>
-      <li><a href="#habilidades">Habilidades & Competências</a></li>
-      <li><a href="#links">Links úteis</a></li>
-    </ul>
-
-    <!-- Foto de perfil -->
-
-    <img
-      id="foto de perfil"
-      src="WhatsApp Image 2022-02-16 at 12.06.50.jpeg"
-      alt="Foto de Aron Adams Rapetto"
-      width="150px"
-    />
-
-    <!-- Primeira seção - sobre mim -->
-
-    <h1 id="sobre_mim" class="nome">Aron Adams Rapetto</h1>
-
-    <p class="texto-apresentacao">
-      Oii, muito prazer e bem vindo(a) ao meu
-      <strong>portifólio profissional!!</strong> <br /><br />
-      Meu nome é Aron, tenho 24 anos, sou <em>Brasileiro</em>, nascido e residente de
-      <strong>Porto Alegre/RS</strong>, moro com minha "namorida" e minhas duas filhas do
-      coração. Atualmente sou uma pessoa estudante da Trybe me preparando para
-      uma futura carreira como Dev na área de Desenvolvimento Web. Gosto muito
-      de música e tenho como principal hobby tocar violão, meu prato favorito é
-      arroz, feijão, bife a milanesa, purê de batata e beterraba.. hmmmm...
-      <br />
-      Meu sonho é viajar o mundo e conhecer as mais diversas culturas e
-      costumes, vislumbrar paisagens inimagináveis e enriquecer minha vida com
-      experiências únicas.
-    </p>
-
-    <!-- Segunda seção - Habilidades e competências -->
-
-    <h4 id="habilidades">Habilidades & Competências</h4>
-
-    <ul>
-      <li>
-        <em>Unix & Shell</em> - Conhecimento básico na manipulação de arquivos e
-        processos através do terminal em sistemas baseados em Unix.
-      </li>
-      <li>
-        <em>Organização</em> - Habilidade de organizar a mim mesmo e o ambiente
-        a minha volta.
-      </li>
-      <li><em>HTML & CSS</em> - (Ainda em desenvolvimento)</li>
-      <li>
-        <em>Responsabilidade</em> - Capacidade de cumprir com compromissos e
-        obrigações assumidos além de ponderar decisões e seus efeitos em mim ou
-        terceiros.
-      </li>
-      <li>
-        <em>Rápido aprendizado</em> - Capacidade de aprender de forma ágil e
-        prática.
-      </li>
-      <li>
-        <em>Git e GitHub</em> - Conhecimento e prática no versionamento de
-        arquivos.
-      </li>
-      <li>
-        <em>Empatia</em> - Capacidade de discernir os sentimentos, situações e
-        dificuldades de outras pessoas.
-      </li>
-    </ul>
-    <h4>Habilidade da qual mais me orgulho</h4>
-    <ul>
-      <li>
-        <em><strong>Inteligência emocional</strong></em> - Capacidade de manter
-        a calma em situações difíceis, de urgência ou crise.
-      </li>
-      <br />
-    </ul>
-
-    <!-- Terceira seção - Links úteis -->
-
-    <h4 id="links">Links úteis</h4>
-
-    <a href="https://blog.betrybe.com/" target="_Blank"
-      >Melhor blog de tecnologia</a
-    >
-    <br />
-    <a href="https://linkedin.com/in/aron-adams-rapetto" target="_Blank"
-      >LinkedIn</a
-    >
-    <br />
-    <a href="https://github.com/AronAdamsRapetto" target="_Blank">GitHub</a>
-    <br />
-    <a href="#foto_inicial">Início</a>
-  </body>
 </html>
