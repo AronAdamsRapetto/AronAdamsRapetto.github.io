@@ -92,12 +92,12 @@ nav ul li a {
   /* cursor: pointer; */
 }
 
-.projeto a {
+#mencao {
   text-decoration: none;
-  color: #248232;  
+  color: #248232;    
 }
 
-.projeto a:hover {
+#mencao:hover {
   color: #2ba84a;   
 }
 
