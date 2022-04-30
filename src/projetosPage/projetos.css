@@ -66,6 +66,11 @@ nav ul li a {
   margin: 20px auto;
 }
 
+.container-projetos a {
+  text-decoration: none;
+  color: #fcfffc;
+}
+
 .projeto {
   display: flex;
   flex-direction: column;
@@ -80,13 +85,20 @@ nav ul li a {
   padding: 5px;  
 }
 
+.projeto:hover {
+  transition: width 0.5s, height 0.5s ease;
+  width: 315px;
+  height: 215px;
+  /* cursor: pointer; */
+}
+
 .projeto a {
   text-decoration: none;
-  color: #248232;
+  color: #248232;  
 }
 
 .projeto a:hover {
-  color: #2ba84a;  
+  color: #2ba84a;   
 }
 
 footer {
