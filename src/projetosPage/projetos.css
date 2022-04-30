@@ -7,12 +7,13 @@
 body {
   background-color: #2d3a3a;
   line-height: 20px;
-  font-family: "Montserrat", sans-serif; 
+  font-family: "Montserrat", sans-serif;
+  color: #fcfffc;
 }
 
 header {
   background-color: #040f0f;
-  color: #fcfffc;  
+  color: #fcfffc;
   height: 50px;
   display: flex;
   justify-content: space-between;
@@ -35,15 +36,17 @@ nav ul li {
 
 nav ul li {
   display: inline-block;
-  padding: 13px;  
+  padding: 13px;
+  text-decoration: none;
   color: #fcfffc;
   background-color: #040f0f;
   box-shadow: 2px 2px 2px rgba(4, 15, 15, 0.5);
   border-radius: 8px;
-  cursor: pointer;
+  cursor: pointer;  
 }
 
-nav ul li:hover , nav ul li a:hover {
+nav ul li:hover,
+nav ul li a:hover {
   transition: all 0.5s ease;
   color: #2ba84a;
   transform: translateY(10px);
@@ -55,40 +58,51 @@ nav ul li a {
   padding: 13px;
 }
 
-.sobre-mim {
+.container-projetos {
   display: flex;
-  align-items: center;
-  justify-content: center;  
-  margin: 0 0 135px 60px;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 90%;
+  margin: 20px auto;
 }
 
-.foto-de-perfil {  
-  width: 250px;    
-  margin: 50px 0 0px 100px;
-  border-radius: 50%;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);    
-}
-
-.texto-apresentacao {  
-  transition: color 1.5s ease;  
-  margin: 30px;  
-  color:#2d3a3a;
-}
-
-.texto-apresentacao p:nth-child(1) {
-  margin: 150px 0 20px;
+.container-projetos a {
+  text-decoration: none;
   color: #fcfffc;
-  background-color: #248232;
-  display: inline-block;
+}
+
+.projeto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #2ba84a;
+  margin: 10px;
+  background: rgba(4, 15, 15, 0.6);
   padding: 5px;  
 }
 
-.apareceTexto {  
-  color: #fcfffc;  
+.projeto:hover {
+  transition: width 0.5s, height 0.5s ease;
+  width: 315px;
+  height: 215px;
+  /* cursor: pointer; */
+}
+
+#mencao {
+  text-decoration: none;
+  color: #248232;    
+}
+
+#mencao:hover {
+  color: #2ba84a;   
 }
 
 footer {
-  display: flex;  
+  display: flex;
   background-color: #040f0f;
   color: #fcfffc;
   flex-direction: column;
@@ -99,7 +113,7 @@ footer {
 
 .container-links {
   display: flex;
-  margin: 0 ;
+  margin: 0;
 }
 
 footer a {
