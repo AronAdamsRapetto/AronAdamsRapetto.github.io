@@ -169,15 +169,7 @@ footer a {
 @media screen and (max-width: 363px) {
   header h1 {
     font-size: 24px;
-  }
-
-  /* header {
-    flex-direction: row;
-  }
-
-  header ul {
-    flex-direction: column;
-  } */
+  }  
 }
 
 @media screen and (max-width: 351px){
