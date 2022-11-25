@@ -1,12 +1,12 @@
 header {
   background-color: #040f0f;
-  color: #fcfffc;  
+  color: #fcfffc;
   min-height: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  width: 100%;  
+  width: 100%;
 }
 
 header h1 {
@@ -15,7 +15,7 @@ header h1 {
 }
 
 nav ul {
-  display: flex;    
+  display: flex;
 }
 
 nav ul li {
@@ -25,7 +25,7 @@ nav ul li {
 
 nav ul li {
   display: inline-block;
-  padding: 13px 0;  
+  padding: 13px 0;
   color: #fcfffc;
   background-color: #040f0f;
   box-shadow: 2px 2px 2px rgba(4, 15, 15, 0.5);
@@ -46,13 +46,15 @@ nav ul li a {
 }
 
 @media screen and (max-width: 771px) {
-  header {    
+  header {
     flex-direction: column;
-    justify-content: center;        
+    justify-content: center;
   }
-  header h1, header ul{
+
+  header h1, header ul {
     margin-top: 10px;
   }
+  
   header ul {
     max-width: 610px;
     justify-content: space-around;

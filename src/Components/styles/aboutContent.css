@@ -1,4 +1,4 @@
-.sobre-mim {
+.about-me-container {
   display: flex;
   align-items: center;
   justify-content: center;  
@@ -6,73 +6,61 @@
   margin-bottom: 130px;
 }
 
-.foto-de-perfil {  
+.profile-image {  
   width: 250px;        
   margin: 50px 0 0px 100px;
   border-radius: 50%;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);    
 }
 
-.texto-apresentacao {  
-  transition: color 1.5s ease;  
-  margin: 30px;  
-  color:#2d3a3a;
+.presentation-container {
   display: flex;
   flex-direction: column;
 }
 
-.texto-apresentacao p:nth-child(1) {
-  margin: 150px 0 20px;
+.presentation { 
+  margin: 150px 20px 30px 20px;
   color: #fcfffc;
   background-color: #248232;
   max-width: max-content; 
-  padding: 5px;  
+  padding: 5px; 
 }
 
-.apareceTexto {  
-  transition: color 1.5s ease;  
-  margin: 30px;
-  color: #fcfffc;
-  display: flex;
-  flex-direction: column; 
+.hidden-about-text {
+  transition: color 1.5s ease;
+  margin: 30px 20px;  
+  color:#2d3a3a;
 }
 
-.apareceTexto p:nth-child(1) {
-  margin: 150px 0 20px;
+.about-text {
+  transition: color 1.5s ease;
+  margin: 30px 20px;  
   color: #fcfffc;
-  background-color: #248232;
-  max-width: max-content; 
-  padding: 5px;  
 }
 
 @media screen and (max-width: 750px) {
-  .sobre-mim {
+  .about-me-container {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
-  .foto-de-perfil {
+  .profile-image {
     margin: 5px auto;
   }
 
-  .texto-apresentacao {
+  .presentation-container {
     align-items: center;
     justify-content: center;
-    text-align: center;
-  }
-  
-  .texto-apresentacao p:nth-child(1) {
-    margin: 5px 0;
   }
 
-  .apareceTexto {
-    align-items: center;
-    justify-content: center;
+  .presentation {
+    margin: auto;
     text-align: center;
-  }
-  
-  .apareceTexto p:nth-child(1) {
     margin: 5px 0;
+  }  
+
+  .about-text {
+    text-align: center;
   }
 }

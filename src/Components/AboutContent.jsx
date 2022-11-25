@@ -2,18 +2,18 @@ import './styles/aboutContent.css';
 import profileImage from '../img/profileImage.jpeg';
 
 function AboutContent({ showText }) {
-
   return (
     <main>
-      <section id="container-sobre-mim" className="sobre-mim">  
-        <img className="foto-de-perfil" src={ profileImage }
+      <section className="about-me-container">  
+        <img className="profile-image" src={ profileImage }
           alt="Foto de Aron Adams Rapetto" width="150px" />
   
-        <div className={showText ? "apareceTexto" : "texto-apresentacao"}>
-          <p>
+        <div className='presentation-container'>
+          <p className='presentation'>
             Oii, muito prazer e bem vindo(a) ao meu
-            <strong>portifólio profissional!!</strong> </p>
-            <p>
+            <strong> portifólio profissional!!</strong>
+          </p>
+          <p className={showText ? "about-text" : 'hidden-about-text'}>
             Meu nome é Aron, tenho 24 anos, sou <em>Brasileiro</em>, nascido e residente de
             <strong> Porto Alegre/RS</strong>, moro com minha esposa e minhas duas filhas do
             coração. Atualmente sou uma pessoa estudante da Trybe me preparando para
