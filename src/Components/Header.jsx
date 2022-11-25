@@ -11,10 +11,10 @@ function Header({ setShowText, showText }) {
 
   return (
     <header>
-      <h1 className="nome">Aron Adams Rapetto</h1>
+      <h1>Aron Adams Rapetto</h1>
         <nav>
           <ul>
-            <li id="sobre-mim"><Link onClick={ handleClick } to='/'>SOBRE MIM</Link></li>
+            <li><Link onClick={ handleClick } to='/'>SOBRE MIM</Link></li>
             <li><Link to="/projects">PROJETOS</Link></li>
             <li><Link to="/contact">CONTATO</Link></li>
           </ul>
