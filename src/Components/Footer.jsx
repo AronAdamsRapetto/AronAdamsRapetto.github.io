@@ -1,9 +1,9 @@
 import './styles/footer.css';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
-function Footer() {
+function Footer({ isFixed }) {
   return (
-    <footer>
+    <footer style={{ position: isFixed ? 'fixed' : '' }}>
       <p>Todos os direitos reservados</p>
       <p>Desenvolvido por Aron Adams Rapetto</p>
       <div class="container-links">

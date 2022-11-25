@@ -10,7 +10,7 @@ function About() {
     <div>
       <Header setShowText={ setShowText } showText={ showText } />
       <AboutContent showText={ showText } />
-      <Footer />
+      <Footer isFixed={ true } />
     </div>
   )
 }
