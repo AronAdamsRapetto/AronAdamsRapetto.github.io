@@ -1,0 +1,46 @@
+.sobre-mim {
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  margin-top: 30px;
+  margin-bottom: 130px;
+}
+
+.foto-de-perfil {  
+  width: 250px;        
+  margin: 50px 0 0px 100px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);    
+}
+
+.texto-apresentacao {  
+  transition: color 1.5s ease;  
+  margin: 30px;  
+  color:#2d3a3a;
+  display: flex;
+  flex-direction: column;
+}
+
+.texto-apresentacao p:nth-child(1) {
+  margin: 150px 0 20px;
+  color: #fcfffc;
+  background-color: #248232;
+  max-width: max-content; 
+  padding: 5px;  
+}
+
+.apareceTexto {  
+  transition: color 1.5s ease;  
+  margin: 30px;
+  color: #fcfffc;
+  display: flex;
+  flex-direction: column; 
+}
+
+.apareceTexto p:nth-child(1) {
+  margin: 150px 0 20px;
+  color: #fcfffc;
+  background-color: #248232;
+  max-width: max-content; 
+  padding: 5px;  
+}
