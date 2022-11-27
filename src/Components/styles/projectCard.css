@@ -1,0 +1,33 @@
+.container-projetos {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.container-projetos a {
+  text-decoration: none;
+  color: #fcfffc;
+}
+
+.projeto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #2ba84a;
+  margin: 10px;
+  background: rgba(4, 15, 15, 0.6);
+  padding: 5px;  
+}
+
+.projeto:hover {
+  transition: width 0.5s, height 0.5s ease;
+  width: 315px;
+  height: 215px;
+  /* cursor: pointer; */
+}
