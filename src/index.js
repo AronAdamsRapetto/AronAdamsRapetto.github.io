@@ -10,8 +10,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Helmet>
-        <title>Portifólio | Aron Adams Rapetto</title>
-      </Helmet>
+      <title>Portifólio | Aron Adams Rapetto</title>
+    </Helmet>
     <BrowserRouter>
       <App />
     </BrowserRouter>
