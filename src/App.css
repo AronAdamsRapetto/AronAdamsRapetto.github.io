@@ -7,5 +7,16 @@
 body {
   background-color: #2d3a3a;
   line-height: 20px;
-  font-family: "Montserrat", sans-serif; 
+  font-family: "Montserrat", sans-serif;
 }
+
+main {
+  flex-grow: 1;
+}
+
+.page-container, body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+

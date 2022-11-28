@@ -2,13 +2,14 @@ import Footer from "../Components/Footer"
 import Header from "../Components/Header"
 import ProjectCard from "../Components/ProjectCard";
 import projectList from '../data/projectList';
+import '../App.css';
 
 function Projects() {
   return (
-    <div>
+    <div className="page-container">
       <Header />
       <main>
-        <section className="container-projetos">
+        <section className="projects-container">
           {
             projectList.map(({ name, urlRepository }) => (
             <ProjectCard
@@ -18,11 +19,8 @@ function Projects() {
           ))
           }
         </section>
-        {/* <section className="back-end-container">
-
-        </section> */}
       </main>
-      <Footer isFixed={ true }/>
+      <Footer />
     </div>
   )
 }

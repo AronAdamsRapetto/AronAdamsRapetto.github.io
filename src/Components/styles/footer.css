@@ -4,10 +4,9 @@ footer {
   background-color: #040f0f;
   color: #fcfffc;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   padding: 12px 0;
-  width: 100%;  
+  width: 100%;
 }
 
 .container-links {
