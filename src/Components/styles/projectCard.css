@@ -12,7 +12,7 @@
 }
 
 .project-card {  
-  min-width: 300px;
+  width: 300px;
   height: 200px;
   perspective: 1000px;
   margin: 10px;
@@ -60,7 +60,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .project {
+  .project-card {
     width: 250px;
   }
 }
