@@ -15,14 +15,13 @@ function AboutContent({ showText }) {
           </p>
           <p className={showText ? "about-text" : 'hidden-about-text'}>
             Meu nome é Aron, tenho 24 anos, sou <em>Brasileiro</em>, nascido e residente de
-            <strong> Porto Alegre/RS</strong>, moro com minha esposa e minhas duas filhas do
-            coração. Atualmente sou uma pessoa estudante da Trybe me preparando para
-            uma futura carreira como Dev na área de Desenvolvimento Web. Gosto muito
-            de música e tenho como principal hobby tocar violão.
+            <strong> Porto Alegre/RS</strong>, Aqui você encontrará alguns projetos desenvolvidos de forma
+            individual por mim ou colaborando em um grupo, encontrará também certo conhecimento em CSS utilizado para
+            desenvolver esta aplicação, caso deseje entrar em contato, no rodapé da página há links para o
+            Github e LinkedIn, assim como uma tela de contato onde poderá enviar-me um email diretamente desde
+            portfólio. 
             <br />
-            Meu sonho é viajar o mundo e conhecer as mais diversas culturas e
-            costumes, vislumbrar paisagens inimagináveis e enriquecer minha vida com
-            experiências únicas.
+            Obrigado pela visita, qualquer dúvida não hesite em entrar em contato. Forte Abraço!
           </p>
         </div>
       </section>      
@@ -31,3 +30,7 @@ function AboutContent({ showText }) {
 }
 
 export default AboutContent;
+
+// Atualmente sou uma pessoa estudante da Trybe me preparando para
+// uma futura carreira como Dev na área de Desenvolvimento Web. Gosto muito
+// de música e tenho como principal hobby tocar violão.
