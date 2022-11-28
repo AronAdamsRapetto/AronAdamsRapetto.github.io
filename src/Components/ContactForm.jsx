@@ -31,7 +31,7 @@ function ContactForm() {
       console.log(response);
 
       if (response.data.success) {
-        setContactStatus({ 
+        setContactStatus({
         status: true,
         message: 'Mensagem enviada com sucesso!'
        });
@@ -82,12 +82,12 @@ function ContactForm() {
         placeholder='Mensagem'
         required
       />
-      <button type='submit'>
-        Enviar
-      </button>
       {
         contactStatus.status && <span>{ contactStatus.message }</span>
       }
+      <button type='submit'>
+        Enviar
+      </button>      
     </form>
   );
 }

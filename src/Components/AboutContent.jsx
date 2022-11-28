@@ -14,12 +14,11 @@ function AboutContent({ showText }) {
             <strong> portifólio profissional!!</strong>
           </p>
           <p className={showText ? "about-text" : 'hidden-about-text'}>
-            Meu nome é Aron, tenho 24 anos, sou <em>Brasileiro</em>, nascido e residente de
+            Meu nome é Aron, tenho 25 anos, sou <em>Brasileiro</em>, nascido e residente de
             <strong> Porto Alegre/RS</strong>, Aqui você encontrará alguns projetos desenvolvidos de forma
             individual por mim ou colaborando em um grupo, encontrará também certo conhecimento em CSS utilizado para
             desenvolver esta aplicação, caso deseje entrar em contato, no rodapé da página há links para o
-            Github e LinkedIn, assim como uma tela de contato onde poderá enviar-me um email diretamente desde
-            portfólio. 
+            Github e LinkedIn, assim como uma tela de contato onde poderá enviar-me um email diretamente daqui. 
             <br />
             Obrigado pela visita, qualquer dúvida não hesite em entrar em contato. Forte Abraço!
           </p>

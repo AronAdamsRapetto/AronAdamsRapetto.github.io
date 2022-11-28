@@ -55,6 +55,11 @@ form button:hover {
   cursor: pointer;
 }
 
+form span {
+  margin: 0 0 10px 0;
+  color: #2ba84a;
+}
+
 @media screen and (max-width: 340px) {
   form {
     margin: 60px 20px;
