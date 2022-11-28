@@ -1,12 +1,16 @@
 import Header from "../Components/Header";
-// import { useState } from "react";
 import Footer from "../Components/Footer";
+import ContactForm from "../Components/ContactForm";
+import '../App.css'
 
 function Contact() {
   return (
-    <div>
+    <div className="page-container">
       <Header />
-      <Footer isFixed={ true } />
+      <main>
+        <ContactForm />
+      </main>
+      <Footer />
     </div>
   )
 }
